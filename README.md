@@ -1,5 +1,6 @@
 # music-classification-script
 Español | [English](README-EN.md)
+---
 Script de Bash para clasificación de música basado en directorios: artista/álbum.
 Este script primero intenta buscar en los metadatos del archivo MP3 y, si no encuentra los datos, consulta al usuario.
 *Hay que cambiar el nombre "$user" por el nombre de usuario real del que forma parte el directorio.*
