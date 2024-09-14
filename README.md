@@ -28,7 +28,7 @@ find "$carpeta" -type f -name "*.mp3" -exec bash -c '
     fi
 
     # Creamos los directorios necesarios si no existen
-    directorio_album="/home/andrea/Música/$artista/$album"
+    directorio_album="/home/$user/Música/$artista/$album"
     mkdir -p "$directorio_album"
 
     # Movemos el archivo al directorio correspondiente
